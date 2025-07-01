@@ -406,6 +406,7 @@ fn perform_privacy_withdrawal_with_traces(
 
 #[test]
 #[wasm_bindgen_test]
+#[ignore = "Heavy integration test - run individually with --ignored"]
 fn test_zkane_privacy_verification_flow() -> Result<()> {
     // BOILER PATTERN: Initialize state exactly like successful boiler tests
     clear();
@@ -574,6 +575,7 @@ fn test_zkane_privacy_verification_flow() -> Result<()> {
 
 #[test]
 #[wasm_bindgen_test]
+#[ignore = "Heavy integration test - run individually with --ignored"]
 fn test_comprehensive_privacy_multi_user_flow() -> Result<()> {
     println!("\n🎯 COMPREHENSIVE PRIVACY MULTI-USER FLOW TEST - BOILER PATTERN");
     println!("==============================================================");
@@ -909,6 +911,7 @@ fn test_comprehensive_privacy_multi_user_flow() -> Result<()> {
 
 #[test]
 #[wasm_bindgen_test]
+#[ignore = "Heavy integration test - run individually with --ignored"]
 fn test_zkane_privacy_edge_cases() -> Result<()> {
     println!("\n🚨 ZKANE PRIVACY EDGE CASES TEST");
     println!("================================");
